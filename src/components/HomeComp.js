@@ -10,9 +10,7 @@ const Home = () => {
         <div className="column lg-5 md-7 sm-9 primary_inverted page_container">
             <h2>Welcome !!</h2>
             <h6>Upcoming Events</h6>
-            <div className="dlevel2">
-                <img src={echo} alt="Echo AR" className="event_card" />
-            </div>
+            <img src={echo} alt="Echo AR" className="event_card dlevel2" />
         </div>
 
     </Fragment>
