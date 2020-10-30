@@ -21,8 +21,7 @@ const Leaderboard = () => {
   return(
     <Fragment>
 
-        <span className="column lg-2 md-1 sm-0"></span>
-        <div className="column lg-5 md-7 sm-9 primary_inverted page_container">
+        <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
             <h4>Leaderboard</h4>
             <table className="table_container">
                 <thead>

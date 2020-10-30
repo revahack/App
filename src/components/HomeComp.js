@@ -6,7 +6,6 @@ const Home = () => {
   return(
     <Fragment>
 
-        <span className="column lg-2 md-1 sm-0"></span>
         <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
             <h4>Welcome !!</h4>
             <h6>Upcoming Events</h6>
@@ -14,7 +13,7 @@ const Home = () => {
 
             <br /><br />
             <h6>Polls</h6>
-            <div className="sch_event">
+            <div className="sch_event dlevel2">
                 <h6 className="title">Are you excited for REVA HACK &lt;/&gt; 2020?</h6>
                 <button className="small">Yes</button>
                 <button className="small">No</button>

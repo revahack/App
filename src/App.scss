@@ -67,7 +67,6 @@ body{
         background: #0065af;
         padding: 10px;
         border-radius: 8px;
-        box-shadow: 4px 4px 12px #6e6e6e;
 
         .title{
             font-size: 2.6vh;
@@ -92,7 +91,6 @@ body{
         thead{
 
             tr{
-                box-shadow: 4px 4px 12px #6e6e6e;
                 border-radius: 16px;
 
                 &:nth-child(1){
@@ -120,7 +118,6 @@ body{
         tbody{
 
             tr{
-                box-shadow: 4px 4px 12px #6e6e6e;
                 border-radius: 16px;
 
                 &:nth-child(even), &:nth-child(odd){

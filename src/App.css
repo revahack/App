@@ -80,8 +80,6 @@ body .sch_event {
   background: #0065af;
   padding: 10px;
   border-radius: 8px;
-  -webkit-box-shadow: 4px 4px 12px #6e6e6e;
-          box-shadow: 4px 4px 12px #6e6e6e;
 }
 
 body .sch_event .title {
@@ -106,8 +104,6 @@ body table {
 }
 
 body table thead tr {
-  -webkit-box-shadow: 4px 4px 12px #6e6e6e;
-          box-shadow: 4px 4px 12px #6e6e6e;
   border-radius: 16px;
 }
 
@@ -133,8 +129,6 @@ body table thead tr th:hover {
 }
 
 body table tbody tr {
-  -webkit-box-shadow: 4px 4px 12px #6e6e6e;
-          box-shadow: 4px 4px 12px #6e6e6e;
   border-radius: 16px;
 }
 

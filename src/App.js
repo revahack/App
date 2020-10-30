@@ -1,4 +1,4 @@
-import React, { Component} from "react";
+import React from "react";
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import "fdweb/fluent.css";
 import "fdweb/fluent-icons.css";
@@ -8,6 +8,7 @@ import Home from "./components/HomeComp";
 import Schedule from "./components/ScheduleComp";
 import Navbar from "./components/NavbarComp";
 import Leaderboard from "./components/LeaderboardComp";
+import FourZeroFour from "./components/FourZeroFourComp";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path="/home" component={Home} />
           <Route exact path="/schedule" component={Schedule} />
           <Route exact path="/leaderboard" component={Leaderboard} />
+          <Route component={FourZeroFour} />
         </Switch>
     </Router>
   );
@@ -26,5 +28,4 @@ const App = () => {
 
 export default App;
 
-//import FourZeroFour from "./components/404Comp";
-//<Route component={FourZeroFour} />        <Navbar />
+//        <Navbar />
