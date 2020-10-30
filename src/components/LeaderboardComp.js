@@ -5,6 +5,7 @@ const Leaderboard = () => {
 
     const [SortedData, setSortedData] = useState ([]);
 
+
     const sortdata = () => {
         const SortedLBData = LBData.sort(function(a, b){
             var x = b.points - a.points;

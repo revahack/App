@@ -8,6 +8,7 @@ import Home from "./components/HomeComp";
 import Schedule from "./components/ScheduleComp";
 import Navbar from "./components/NavbarComp";
 import Leaderboard from "./components/LeaderboardComp";
+import Install from "./components/InstallComp";
 import FourZeroFour from "./components/FourZeroFourComp";
 
 
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <Router>
         <Navbar />
+        <Install />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />

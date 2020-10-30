@@ -8,6 +8,8 @@
 }
 
 body{
+    background: #2d2d47;
+
     .horizontal{
         position: relative;
         display: flex;
@@ -54,10 +56,25 @@ body{
         position: fixed;
         top: 93vh;
         background: #1d1d57;
-        z-index: 20;
+        z-index: 10;
 
         a{
             color: #fcfcfcfc;
+        }
+    }
+
+    .install_prompt{
+        width: 40vh;
+        height: 22.5vh;
+        position: fixed;
+        top: 40vh;
+        left: 20vw;
+        background: #fcfcfcac;
+        backdrop-filter: blur(10px);
+        padding: 10px 20px;
+
+        .app_name{
+            font-size: 3vh;
         }
     }
 
@@ -178,7 +195,10 @@ body{
 @media (max-width: 480px){
     .sm-9{
         width: 100vw;
-    }        
+    }
+    #install_button_surface .modal_content{
+        height: 90vh;
+    }
 }
 
 /*
@@ -188,3 +208,10 @@ body{
     }
 }
 */
+.large_icon{
+    width: 100px;
+    height: 100px;
+}
+.app_name{
+    font-size: 4vh; 
+}

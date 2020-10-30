@@ -53,6 +53,6 @@
    ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#06a5af",
+  "background_color": "#0e0e0e"
 }

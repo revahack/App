@@ -8,6 +8,10 @@
   color: #fcfcfc;
 }
 
+body {
+  background: #2d2d47;
+}
+
 body .horizontal {
   position: relative;
   display: -webkit-box;
@@ -67,11 +71,27 @@ body .pivot_menu {
   position: fixed;
   top: 93vh;
   background: #1d1d57;
-  z-index: 20;
+  z-index: 10;
 }
 
 body .pivot_menu a {
   color: #fcfcfcfc;
+}
+
+body .install_prompt {
+  width: 40vh;
+  height: 22.5vh;
+  position: fixed;
+  top: 40vh;
+  left: 20vw;
+  background: #fcfcfcac;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 10px 20px;
+}
+
+body .install_prompt .app_name {
+  font-size: 3vh;
 }
 
 body .sch_event {
@@ -194,6 +214,9 @@ body table tbody tr td:hover {
   .sm-9 {
     width: 100vw;
   }
+  #install_button_surface .modal_content {
+    height: 90vh;
+  }
 }
 
 /*
@@ -203,4 +226,12 @@ body table tbody tr td:hover {
     }
 }
 */
+.large_icon {
+  width: 100px;
+  height: 100px;
+}
+
+.app_name {
+  font-size: 4vh;
+}
 /*# sourceMappingURL=App.css.map */
