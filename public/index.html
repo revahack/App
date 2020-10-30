@@ -40,27 +40,6 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <div class="modal_container" id="install_button_surface">
-      <div class="modal_content zi2">
-          <div class="page_container">
-              <div class="columns large12 medium12 small12">
-                  <br/><br/>
-                  <img src="%PUBLIC_URL%/maskable_icon.png" class="circular icon large_icon" alt="Install" />
-                  <p class="app_name right small0"><b>REVA HACK</b></p>
-                  <hr style="width: 100%"/>
-              </div>
-              <div class="columns large12 medium12 small12">
-                  <p class="app_name">REVA HACK &lt;/&gt; 2020 App</p>
-                  <p class="app_desc">
-                      App for REVA HACK &lt;/&gt; 2020 where you can find the schedule for live shows and judging rounds as well as 
-                      leaderboard to get current ranking of your team.
-                  </p>
-                  <button class="left large primary_blue" onclick="install(); closeinstaller();">Install</button>
-                  <button class="left primary_red can" onclick="closeinstaller()">Cancel</button>
-              </div>
-          </div>
-      </div>
-  </div>
 
   </body>
 
@@ -91,29 +70,17 @@
 
         });
 
+      }
     }
-    closeinstaller();
-    }
-
-    function showinstaller(){
-        document.getElementById("install_button_surface").style.display="Block";
-        document.getElementById("head").style.filter="saturate(125%) blur(10px)";            
-    }
-    
-    function closeinstaller(){
-        document.getElementById("install_button_surface").style.display="none";
-        document.getElementById("head").style.filter="saturate(100%) blur(0px)";            
-    }
-
 </script>
 <script>
     function checkinstall(){
         if (window.matchMedia('(display-mode: standalone)').matches) {  
-            closeinstaller();
             console.log('display-mode is standalone');
         }  
-        else
-            showinstaller();
+        else{
+          install();
+        }
     }
 </script>
 </html>

@@ -65,6 +65,8 @@ const Schedule = () => {
 
             </div>
 
+            <br /><br />
+            <br /><br />
         </div>
 
     </Fragment>
