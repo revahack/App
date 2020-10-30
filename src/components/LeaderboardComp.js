@@ -18,6 +18,7 @@ const Leaderboard = () => {
         sortdata();
     }, []);
 
+/*
   return(
     <Fragment>
 
@@ -51,6 +52,20 @@ const Leaderboard = () => {
 
     </Fragment>
   );
+*/
+
+return(
+    <Fragment>
+
+        <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
+            <h4>Leaderboard</h4>
+            <br /><br />
+            <br /><br />
+            <p style={{fontFamily: "Apex M2", fontSize: "3.5vh"}}>Leaderboard will become active after Round 1 results are announced</p>
+        </div>
+        </Fragment>
+  );
+
 
 }
 

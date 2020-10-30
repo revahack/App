@@ -9,10 +9,12 @@ const Schedule = () => {
             <h4>Schedule</h4>
             <br />
             <h6>30th October</h6>
-            <div className="sch_event">
-                <h6 className="title">Echo AR Workshop</h6>
-                <h5 className="speaker">Alon Grinshpoon</h5>
-            </div>
+            <a href="https://www.youtube.com/watch?v=nXoWfW4EMKU&feature=youtu.be">
+                <div className="sch_event">
+                    <h6 className="title">Echo AR Workshop</h6>
+                    <h5 className="speaker">Alon Grinshpoon</h5>
+                </div>
+            </a>
             <br /><br />
             <h6>2nd November - Session 1</h6>
             <div className="horizontal">

@@ -91,6 +91,10 @@ body .sch_event .description {
   padding: 20px 0px;
 }
 
+body a {
+  color: #fcfcfc;
+}
+
 body th:nth-child(2), body td:nth-child(2) {
   width: 320px;
 }
