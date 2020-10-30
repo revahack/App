@@ -183,7 +183,7 @@ body table tbody tr td:hover {
 }
 
 .fullheight {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media (max-width: 480px) {

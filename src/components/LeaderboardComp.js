@@ -25,7 +25,7 @@ const Leaderboard = () => {
             <h4>Leaderboard</h4>
             <table className="table_container">
                 <thead>
-                    <tr>
+                    <tr className="dlevel2">
                         <th>Rank</th>  
                         <th>Team Name</th>
                         <th>Rounds</th>
