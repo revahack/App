@@ -215,3 +215,12 @@ body{
 .app_name{
     font-size: 4vh; 
 }
+
+.intall_surface{
+    padding: 20px;
+    z-index: 20;
+    position: fixed;
+    
+    background: #fcfcfcac;
+    backdrop-filter: blur(10px);
+}
