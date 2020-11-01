@@ -2,6 +2,7 @@
     font-family: "Apex M2";
     src: url(./apex.otf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 .primary_inverted{
     background: #1d1d37;
     color: #fcfcfc;
@@ -23,6 +24,17 @@ body{
         align-items: flex-start;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;
+
+        a{
+            opacity: 0.8;
+
+            &::before{
+                display: none;
+            }
+            &:hover, &:focus{
+                opacity: 1;
+            }
+        }
     }
     
     .horizontal div{
@@ -44,7 +56,7 @@ body{
     }
 
     h1, h2, h3, h4, h5, h6{
-        font-family: "Apex M2";
+        font-family: "Barlow";
     }
 
     .event_card{
@@ -79,19 +91,34 @@ body{
     }
 
     .sch_event{
-        width: 40vh;
-        height: 22.5vh;
-        background: #0065af;
-        padding: 10px;
+        width: 44vh;
+        height: 24.75vh;
+        padding: 5px 10px;
         border-radius: 8px;
 
+        &.def{
+            background: #06a5af;
+        }
+
         .title{
-            font-size: 2.6vh;
+            font-size: 2.0vh;
         }
         .description{
-            font-family: "Apex M2";
+            font-family: "Barlow";
             padding: 20px 0px;
         }
+        .time{
+            font-size: 12.5px;
+            padding: 2px 6px;
+            background: #0e0e0e;
+            color: #fcfcfc;
+            width: 9em;
+            margin-top: 15px;
+        }
+        .speaker{
+            font-size: 3.4vh;
+        }
+    
     }
     a{
         color: #fcfcfc;

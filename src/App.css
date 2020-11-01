@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 @font-face {
   font-family: "Apex M2";
   src: url(./apex.otf);
@@ -35,6 +36,18 @@ body .horizontal {
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+body .horizontal a {
+  opacity: 0.8;
+}
+
+body .horizontal a::before {
+  display: none;
+}
+
+body .horizontal a:hover, body .horizontal a:focus {
+  opacity: 1;
+}
+
 body .horizontal div {
   min-width: 40vh;
   margin: 10px 14px;
@@ -59,7 +72,7 @@ body .horizontal::-webkit-scrollbar-thumb {
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Apex M2";
+  font-family: "Barlow";
 }
 
 body .event_card {
@@ -95,20 +108,36 @@ body .install_prompt .app_name {
 }
 
 body .sch_event {
-  width: 40vh;
-  height: 22.5vh;
-  background: #0065af;
-  padding: 10px;
+  width: 44vh;
+  height: 24.75vh;
+  padding: 5px 10px;
   border-radius: 8px;
 }
 
+body .sch_event.def {
+  background: #06a5af;
+}
+
 body .sch_event .title {
-  font-size: 2.6vh;
+  font-size: 2.0vh;
 }
 
 body .sch_event .description {
-  font-family: "Apex M2";
+  font-family: "Barlow";
   padding: 20px 0px;
+}
+
+body .sch_event .time {
+  font-size: 12.5px;
+  padding: 2px 6px;
+  background: #0e0e0e;
+  color: #fcfcfc;
+  width: 9em;
+  margin-top: 15px;
+}
+
+body .sch_event .speaker {
+  font-size: 3.4vh;
 }
 
 body a {
@@ -233,5 +262,14 @@ body table tbody tr td:hover {
 
 .app_name {
   font-size: 4vh;
+}
+
+.intall_surface {
+  padding: 20px;
+  z-index: 20;
+  position: fixed;
+  background: #fcfcfcac;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 /*# sourceMappingURL=App.css.map */

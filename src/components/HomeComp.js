@@ -10,23 +10,31 @@ const Home = () => {
             <h4>Welcome !!</h4>
             <h6>Upcoming Events</h6>
             <div className="horizontal">
-                <div className="sch_event">
-                    <h6 className="title">REVA HACK &lt;/&gt; Live Event Session A</h6>
+              <a href="https://www.youtube.com/watch?v=3j2uYQDVLHM">
+              <div className="sch_event secondary_blue">
+                    <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session A</h6>
                     <h5 className="speaker">Punit Chawla &amp; Aqib Ahmed</h5>
+                    <h6 className="time">10AM to 12PM IST</h6>
                 </div>
-                <div className="sch_event">
-                    <h6 className="title">Carrer, niche skills and importance of presentation</h6>
-                    <h5 className="speaker">Aqib Ahmed</h5>
+              </a>
+              <a href="https://www.youtube.com/watch?v=kSiK-b5TclA">
+                <div className="sch_event secondary_green">
+                    <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session B</h6>
+                    <h5 className="speaker">Akash James, Singam Mohit Reddy &amp; Kunal Kushwaha</h5>
+                    <h6 className="time">04PM to 06PM IST</h6>
                 </div>
+              </a>
 
             </div>
 
             <br /><br />
             <h6>Polls</h6>
-            <div className="sch_event dlevel2">
+            <div className="sch_event dlevel2 def">
                 <h6 className="title">Are you excited for REVA HACK &lt;/&gt; 2020?</h6>
+                <br/>
                 <button className="small">Yes</button>
                 <button className="small">No</button>
+                <br/>
                 <br/>
                 <span className="primary_red" style={{padding: "2px", margin: "4px"}}>
                   Polls are not active currently
@@ -37,7 +45,7 @@ const Home = () => {
             <br /><br />
             <h6>Want More Info??</h6>
             <a href="https://revahack.com/">
-              <img src={rhlogo} className="sch_event dlevel2" alt="rhlogo" />
+              <img src={rhlogo} className="sch_event dlevel2 def" alt="rhlogo" />
             </a>
 
           <br /><br />

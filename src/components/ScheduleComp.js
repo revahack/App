@@ -10,58 +10,49 @@ const Schedule = () => {
             <br />
             <h6>30th October</h6>
             <a href="https://www.youtube.com/watch?v=nXoWfW4EMKU&feature=youtu.be">
-                <div className="sch_event">
+                <div className="sch_event def">
                     <h6 className="title">Echo AR Workshop</h6>
                     <h5 className="speaker">Alon Grinshpoon</h5>
+                    <h6 className="time">09PM to 10PM IST</h6>
                 </div>
             </a>
             <br /><br />
-            <h6>2nd November - Session 1</h6>
+            <h6>2nd November</h6>
             <div className="horizontal">
-                <div className="sch_event">
-                    <h6 className="title">UI/UX for Developers AND Code: Future of Design and Tech</h6>
-                    <h5 className="speaker">Punit Chawla</h5>
+            <a href="https://www.youtube.com/watch?v=3j2uYQDVLHM">
+              <div className="sch_event secondary_blue">
+                    <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session A</h6>
+                    <h5 className="speaker">Punit Chawla &amp; Aqib Ahmed</h5>
+                    <h6 className="time">10AM to 12PM IST</h6>
                 </div>
-                <div className="sch_event">
-                    <h6 className="title">Carrer, niche skills and importance of presentation</h6>
-                    <h5 className="speaker">Aqib Ahmed</h5>
+              </a>
+              <a href="https://www.youtube.com/watch?v=kSiK-b5TclA">
+                <div className="sch_event secondary_green">
+                    <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session B</h6>
+                    <h5 className="speaker">Akash James, Singam Mohit Reddy &amp; Kunal Kushwaha</h5>
+                    <h6 className="time">04PM to 06PM IST</h6>
                 </div>
-
-            </div>
-
-            <br /><br />
-            <h6>2nd November - Session 2</h6>
-            <div className="horizontal">
-                <div className="sch_event">
-                    <h6 className="title">Leveraging AI to super-charge your innovations</h6>
-                    <h5 className="speaker">Akash James</h5>
-                </div>
-                <div className="sch_event">
-                    <h6 className="title">Getting Started with FD Web</h6>
-                    <h5 className="speaker">Singam Mohit Reddy</h5>
-                </div>
-                <div className="sch_event">
-                    <h6 className="title">Importance of Open Source</h6>
-                    <h5 className="speaker">Kunal Kushwaha</h5>
-                </div>
+              </a>
 
             </div>
 
             <br /><br />
             <h6>3rd November</h6>
             <div className="horizontal">
-                <div className="sch_event">
-                    <h6 className="title">How to make an Elevator Pitch</h6>
-                    <h5 className="speaker">Emily Perry</h5>
+                <a href="https://www.youtube.com/watch?v=3j2uYQDVLHM">
+                <div className="sch_event secondary_red">
+                        <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session C</h6>
+                        <h5 className="speaker">Emily Perry, Sreevallabha &amp; Vishnu Sai</h5>
+                        <h6 className="time">10AM to 12PM IST</h6>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=kSiK-b5TclA">
+                <div className="sch_event primary_yellow">
+                    <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session D</h6>
+                    <h5 className="speaker">Himanhsu Ranjan</h5>
+                    <h6 className="time">04PM to 06PM IST</h6>
                 </div>
-                <div className="sch_event">
-                    <h6 className="title">Getting started with Dart</h6>
-                    <h5 className="speaker">Sreevallabha</h5>
-                </div>
-                <div className="sch_event">
-                    <h6 className="title">Flutter | Build your first App</h6>
-                    <h5 className="speaker">Sreevallabha</h5>
-                </div>
+              </a>
 
             </div>
 
