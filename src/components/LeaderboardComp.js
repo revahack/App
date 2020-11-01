@@ -62,7 +62,7 @@ return(
             <h4>Leaderboard</h4>
             <br /><br />
             <br /><br />
-            <p style={{fontFamily: "Apex M2", fontSize: "3.5vh"}}>Leaderboard will become active after Round 1 results are announced</p>
+            <p style={{fontFamily: "Barlow", fontSize: "3.5vh"}}>Leaderboard will become active after Round 1 results are announced</p>
         </div>
         </Fragment>
   );
