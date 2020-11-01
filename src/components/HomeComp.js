@@ -1,5 +1,4 @@
 import React, {Fragment} from "react";
-import echo from "./static/echoar.jfif";
 import rhlogo from "./static/rhlogo.png";
 
 const Home = () => {
@@ -10,9 +9,17 @@ const Home = () => {
         <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
             <h4>Welcome !!</h4>
             <h6>Upcoming Events</h6>
-            <a href="https://www.youtube.com/watch?v=nXoWfW4EMKU&feature=youtu.be">
-              <img src={echo} alt="Echo AR" className="event_card dlevel2" />
-            </a>
+            <div className="horizontal">
+                <div className="sch_event">
+                    <h6 className="title">REVA HACK &lt;/&gt; Live Event Session A</h6>
+                    <h5 className="speaker">Punit Chawla &amp; Aqib Ahmed</h5>
+                </div>
+                <div className="sch_event">
+                    <h6 className="title">Carrer, niche skills and importance of presentation</h6>
+                    <h5 className="speaker">Aqib Ahmed</h5>
+                </div>
+
+            </div>
 
             <br /><br />
             <h6>Polls</h6>
