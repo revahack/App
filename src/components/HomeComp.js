@@ -29,18 +29,11 @@ const Home = () => {
 
             <br /><br />
             <h6>Polls</h6>
-            <div className="sch_event dlevel2 def">
-                <h6 className="title">Are you excited for REVA HACK &lt;/&gt; 2020?</h6>
-                <br/>
-                <button className="small">Yes</button>
-                <button className="small">No</button>
-                <br/>
-                <br/>
-                <span className="primary_red" style={{padding: "2px", margin: "4px"}}>
-                  Polls are not active currently
-                </span>
-
-            </div>
+            <a href="https://onlinepoll.me/poll/vote/are-you-excited-for-reva-hack-2020">
+              <div className="sch_event">
+                  <h4 style={{lineHeight: "1.2", padding: "16px"}}>Are You Excited For REVA HACK &lt;/&gt; 2020??</h4>
+              </div>
+            </a>
 
             <br /><br />
             <h6>Want More Info??</h6>

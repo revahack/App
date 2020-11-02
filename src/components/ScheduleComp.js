@@ -39,14 +39,14 @@ const Schedule = () => {
             <br /><br />
             <h6>3rd November</h6>
             <div className="horizontal">
-                <a href="#/schedule">
+                <a href="https://bit.ly/rh-emily">
                 <div className="sch_event">
                         <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session C</h6>
                         <h5 className="speaker">Emily Perry, Sreevallabha &amp; Vishnu Sai</h5>
                         <h6 className="time">10AM to 12PM IST</h6>
                     </div>
                 </a>
-                <a href="#/schedule">
+                <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGMzNTgwZmItZTI5Ni00YjY2LTk3OWMtYjI3YjE5MjQyZDVi%40thread.v2/0?context=%7b%22Tid%22%3a%22474565c1-bca4-4295-a2f5-b0c7dbf2591c%22%2c%22Oid%22%3a%22a46e2d08-817c-4707-83f8-cf5252b15f08%22%7d">
                 <div className="sch_event">
                     <h6 className="title">REVA HACK &lt;/&gt; 2020 Live Event Session D</h6>
                     <h5 className="speaker">Himanhsu Ranjan</h5>
