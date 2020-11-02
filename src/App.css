@@ -71,10 +71,6 @@ body .horizontal::-webkit-scrollbar-thumb {
   background: #06a5af;
 }
 
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Barlow";
-}
-
 body .event_card {
   width: 40vh;
   height: 22.5vh;
@@ -112,10 +108,8 @@ body .sch_event {
   height: 24.75vh;
   padding: 5px 10px;
   border-radius: 8px;
-}
-
-body .sch_event.def {
-  background: #06a5af;
+  background: #468adf;
+  color: #fcfcfc;
 }
 
 body .sch_event .title {
@@ -123,7 +117,6 @@ body .sch_event .title {
 }
 
 body .sch_event .description {
-  font-family: "Barlow";
   padding: 20px 0px;
 }
 
@@ -132,7 +125,7 @@ body .sch_event .time {
   padding: 2px 6px;
   background: #0e0e0e;
   color: #fcfcfc;
-  width: 9em;
+  width: 10em;
   margin-top: 15px;
 }
 
@@ -233,6 +226,7 @@ body table tbody tr td:hover {
 * {
   -webkit-transition: 300ms;
   transition: 300ms;
+  font-family: "Helvetica Neue", "Open Sans", "Segoe UI", "Roboto", -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .fullheight {
