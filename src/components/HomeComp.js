@@ -1,13 +1,49 @@
-import React, {Fragment} from "react";
+import React, {Fragment, useEffect, useState} from "react";
 import rhlogo from "./static/rhlogo.png";
 
 const Home = () => {
+
+  const [hours, sethours] = useState ([]);
+  const [minutes, setminutes] = useState ([]);
+  const [seconds, setseconds] = useState ([]);
+
+  const timer = () =>{
+    setInterval( ()=>{
+      var countDownDate = new Date("Nov 7, 2020 18:00:00").getTime();
+
+      var now = new Date().getTime();
+  
+      var distance = countDownDate - now;
+  
+      sethours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+      setminutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+      setseconds(Math.floor((distance % (1000 * 60)) / 1000));  
+    }, 1000);
+  }
+
+  useEffect(() => {
+      timer();
+  }, []);
 
   return(
     <Fragment>
 
         <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
             <h4>Welcome !!</h4>
+
+            <h6>Video Submission Ends In</h6>
+              <div className="sch_event" style={{padding: "20px", background: "#ff4455"}}>
+                <div className="column large6 medium6 small6">
+                  <h1 className="ta_center" style={{fontSize: "12vh", lineHeight: "1.0"}}>{hours}</h1>
+                  <h6 className="ta_center" style={{lineHeight: "0.4"}}>Hours</h6>
+                </div>
+                <div className="column large6 medium6 small6" style={{paddingTop: "6px"}}>
+                  <h1 className="ta_center">{minutes} <span style={{fontSize: "2vh", lineHeight: "1.6"}}>Minutes</span></h1>
+                  <h1 className="ta_center">{seconds} <span style={{fontSize: "2vh", lineHeight: "1.6"}}>Seconds</span></h1>
+                </div>
+              </div>
+
+            <br /><br />
             <h6>Upcoming Events</h6>
             <div className="horizontal">
               <a href="https://www.youtube.com/watch?v=3j2uYQDVLHM">
@@ -26,14 +62,6 @@ const Home = () => {
               </a>
 
             </div>
-
-            <br /><br />
-            <h6>Polls</h6>
-            <a href="https://onlinepoll.me/poll/vote/are-you-excited-for-reva-hack-2020">
-              <div className="sch_event">
-                  <h4 style={{lineHeight: "1.2", padding: "16px"}}>Are You Excited For REVA HACK &lt;/&gt; 2020??</h4>
-              </div>
-            </a>
 
             <br /><br />
             <h6>Want More Info??</h6>
