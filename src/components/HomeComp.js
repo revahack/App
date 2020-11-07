@@ -7,17 +7,28 @@ const Home = () => {
   const [minutes, setminutes] = useState ([]);
   const [seconds, setseconds] = useState ([]);
 
+  const expiretimer = () =>{
+    document.querySelector(".timer").innerHTML = "<div style='margin-top: 60px;'><h1 class='ta_center'>Time's Up</h1></div>";
+  }
+
   const timer = () =>{
+
     setInterval( ()=>{
-      var countDownDate = new Date("Nov 7, 2020 18:00:00").getTime();
+      var countDownDate = new Date("Nov 7, 2020 20:00:00").getTime();
 
       var now = new Date().getTime();
   
       var distance = countDownDate - now;
+
+      if(distance<0){
+        clearInterval();
+        expiretimer();
+      }
   
       sethours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
       setminutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
       setseconds(Math.floor((distance % (1000 * 60)) / 1000));  
+
     }, 1000);
   }
 
@@ -32,7 +43,7 @@ const Home = () => {
             <h4>Welcome !!</h4>
 
             <h6>Video Submission Ends In</h6>
-              <div className="sch_event" style={{padding: "20px", background: "#ff4455"}}>
+              <div className="sch_event timer" style={{padding: "20px", background: "#ff4455"}}>
                 <div className="column large6 medium6 small6">
                   <h1 className="ta_center" style={{fontSize: "12vh", lineHeight: "1.0"}}>{hours}</h1>
                   <h6 className="ta_center" style={{lineHeight: "0.4"}}>Hours</h6>
