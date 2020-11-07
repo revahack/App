@@ -19,7 +19,6 @@ const Leaderboard = () => {
         sortdata();
     }, []);
 
-/*
   return(
     <Fragment>
 
@@ -53,8 +52,8 @@ const Leaderboard = () => {
 
     </Fragment>
   );
-*/
 
+/*
 return(
     <Fragment>
 
@@ -66,6 +65,7 @@ return(
         </div>
         </Fragment>
   );
+*/
 
 
 }

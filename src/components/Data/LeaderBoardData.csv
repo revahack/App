@@ -1,6 +1,48 @@
-1, Ruby Sukis, 11, 102, 9.2
-2, John Doe, 8, 92, 11.5
-3, H. S. Butcher, 9, 88, 9.7
-4, Hereward Buchanan, 10, 88, 8.8
-5, Jane Doe, 10, 88, 8.8
-6, Huw Butbot, 11, 84, 7.6
+id,name,questions,points
+0,#include,1,10
+1,ASPB,1,10
+2,ASPB,1,10
+3,Aurora,1,10
+4,Binary,1,10
+5,CodePetrolDelta,1,10
+6,coding ninja,1,10
+7,Coffee and code,1,10
+8,Debugger Warriors,1,10
+9,Dragons,1,10
+10,Encephlon,1,10
+11,Error404,1,10
+12,Flash,1,10
+13,Green.io,1,10
+14,Hack Elite,1,10
+15,hack_reva,1,10
+16,HackStreet Boys,1,10
+17,Haxxor Bois,1,10
+18,Horus,1,10
+19,Mind Hack Zombies,1,10
+20,NBK BOOMERS,1,10
+21,PNS,1,10
+22,PTLM,1,10
+23,Run Time Error,1,10
+24,Segmentation Fault,1,10
+25,Syntax Sanitizers,1,10
+26,The Rebels,1,10
+27,VFour,1,10
+28,wolves,1,10
+29,A_square,1,10
+30,Complexity,1,10
+31,CREATORS,1,10
+32,Droid Squad,1,10
+33,Entropy,1,10
+34,Hack Elite,1,10
+35,HACKATHON A,1,10
+36,Hackers,1,10
+37,I.G.I.,1,10
+38,Immortal,1,10
+39,JUST CHILLING (?^_^)?,1,10
+40,Ovijeet,1,10
+41,Saap,1,10
+42,TechFlurry's,1,10
+43,TECHNOVERTS,1,10
+44,The I.T. Guys,1,10
+45,The Scrapers,1,10
+46,WB,1,10
