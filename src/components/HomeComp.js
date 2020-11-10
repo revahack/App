@@ -3,6 +3,7 @@ import rhlogo from "./static/rhlogo.png";
 
 const Home = () => {
 
+  /*
   const [hours, sethours] = useState ([]);
   const [minutes, setminutes] = useState ([]);
   const [seconds, setseconds] = useState ([]);
@@ -35,6 +36,7 @@ const Home = () => {
   useEffect(() => {
       timer();
   }, []);
+  */
 
   return(
     <Fragment>
@@ -42,18 +44,16 @@ const Home = () => {
         <div className="column lg-5 md-7 sm-9 primary_inverted page_container fullheight">
             <h4>Welcome !!</h4>
 
-            <h6>Video Submission Ends In</h6>
-              <div className="sch_event timer" style={{padding: "20px", background: "#ff4455"}}>
-                <div className="column large6 medium6 small6">
-                  <h1 className="ta_center" style={{fontSize: "12vh", lineHeight: "1.0"}}>{hours}</h1>
-                  <h6 className="ta_center" style={{lineHeight: "0.4"}}>Hours</h6>
+            <h6>Final Round Is Here</h6>
+            <div className="horizontal">
+              <a href="https://youtu.be/x2mB3G1aDd0">
+              <div className="sch_event">
+                    <h6 style={{fontSize: "2.8vh", lineHeight: "1.4"}}>REVA HACK &lt;/&gt; 2020 Live Event</h6>
+                    <h5 style={{fontSize: "5vh", lineHeight: "1.8"}}>Final Round</h5>
+                    <h6 className="time" style={{width: "150px"}}>4:30PM to 7:30PM IST</h6>
                 </div>
-                <div className="column large6 medium6 small6" style={{paddingTop: "6px"}}>
-                  <h1 className="ta_center">{minutes} <span style={{fontSize: "2vh", lineHeight: "1.6"}}>Minutes</span></h1>
-                  <h1 className="ta_center">{seconds} <span style={{fontSize: "2vh", lineHeight: "1.6"}}>Seconds</span></h1>
-                </div>
-              </div>
-
+              </a>
+            </div>
             <br /><br />
             <h6>Upcoming Events</h6>
             <div className="horizontal">
