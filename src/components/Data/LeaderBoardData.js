@@ -1,381 +1,381 @@
 const LeaderBoardData = [
   {
     "id": 0,
-    "name": "Shivani Saha",
-    "questions": 1,
-    "points": 10
+    "name": "#include",
+    "questions": 2,
+    "points": 104
   },
   {
     "id": 1,
-    "name": "ASPB",
-    "questions": 1,
-    "points": 10
+    "name": "AppVision",
+    "questions": 2,
+    "points": 99
   },
   {
     "id": 2,
     "name": "Immortal",
-    "questions": 1,
-    "points": 10
+    "questions": 2,
+    "points": 97
   },
   {
     "id": 3,
-    "name": "HACKATHON G",
-    "questions": 1,
-    "points": 10
+    "name": "Binary",
+    "questions": 2,
+    "points": 94
   },
   {
     "id": 4,
-    "name": "HACKATHON A",
-    "questions": 1,
-    "points": 10
+    "name": "Droid Squad",
+    "questions": 2,
+    "points": 94
   },
   {
     "id": 5,
-    "name": "Code Stomp",
-    "questions": 1,
-    "points": 10
+    "name": "hiriyu",
+    "questions": 2,
+    "points": 92
   },
   {
     "id": 6,
-    "name": "awake ? code : sleep",
-    "questions": 1,
-    "points": 10
+    "name": "Tech_bluff",
+    "questions": 2,
+    "points": 92
   },
   {
     "id": 7,
-    "name": "unstoppable coders",
-    "questions": 1,
-    "points": 10
+    "name": "Innovation Geeks",
+    "questions": 2,
+    "points": 90
   },
   {
     "id": 8,
-    "name": "Complexity",
-    "questions": 1,
-    "points": 10
+    "name": "Segmentation Fault",
+    "questions": 2,
+    "points": 88
   },
   {
     "id": 9,
-    "name": "VVVR",
-    "questions": 1,
-    "points": 10
+    "name": "TechFlurry's",
+    "questions": 2,
+    "points": 88
   },
   {
     "id": 10,
-    "name": "Troopers",
-    "questions": 1,
-    "points": 10
+    "name": "Encephlon",
+    "questions": 2,
+    "points": 87
   },
   {
     "id": 11,
-    "name": "HACK ELITE",
-    "questions": 1,
-    "points": 10
+    "name": "hack_reva",
+    "questions": 2,
+    "points": 87
   },
   {
     "id": 12,
-    "name": "CSE_5516",
-    "questions": 1,
-    "points": 10
+    "name": "coding ninja",
+    "questions": 2,
+    "points": 86
   },
   {
     "id": 13,
-    "name": "Hunter Squad",
-    "questions": 1,
-    "points": 10
+    "name": "HackStreetBoys",
+    "questions": 2,
+    "points": 86
   },
   {
     "id": 14,
-    "name": "The Terminators",
-    "questions": 1,
-    "points": 10
+    "name": "Syntax Sanitizers",
+    "questions": 2,
+    "points": 83
   },
   {
     "id": 15,
-    "name": "US",
-    "questions": 1,
-    "points": 10
+    "name": "Flash",
+    "questions": 2,
+    "points": 83
   },
   {
     "id": 16,
-    "name": "Fine Crew",
-    "questions": 1,
-    "points": 10
+    "name": "Shivani Saha",
+    "questions": 2,
+    "points": 82
   },
   {
     "id": 17,
-    "name": "Hackaholic",
-    "questions": 1,
-    "points": 10
+    "name": "Pradarshane",
+    "questions": 2,
+    "points": 81
   },
   {
     "id": 18,
-    "name": "Reva shopping",
-    "questions": 1,
-    "points": 10
+    "name": "Dragons",
+    "questions": 2,
+    "points": 80
   },
   {
     "id": 19,
-    "name": "Droid Squad",
-    "questions": 1,
-    "points": 10
+    "name": "New Icons",
+    "questions": 2,
+    "points": 80
   },
   {
     "id": 20,
-    "name": "QUINTET",
-    "questions": 1,
-    "points": 10
+    "name": "Team blitz",
+    "questions": 2,
+    "points": 80
   },
   {
     "id": 21,
-    "name": "Saap",
-    "questions": 1,
-    "points": 10
+    "name": "Complexity",
+    "questions": 2,
+    "points": 79
   },
   {
     "id": 22,
     "name": "Lil Coders",
-    "questions": 1,
-    "points": 10
+    "questions": 2,
+    "points": 79
   },
   {
     "id": 23,
-    "name": "Z2VY",
-    "questions": 1,
-    "points": 10
+    "name": "Adreeja",
+    "questions": 2,
+    "points": 76
   },
   {
     "id": 24,
-    "name": "Coders123",
-    "questions": 1,
-    "points": 10
+    "name": "Hackaholic",
+    "questions": 2,
+    "points": 76
   },
   {
     "id": 25,
-    "name": "Alpha team",
-    "questions": 1,
-    "points": 10
+    "name": "HACKATHON G",
+    "questions": 2,
+    "points": 75
   },
   {
     "id": 26,
-    "name": "Team Un-Grads",
-    "questions": 1,
-    "points": 10
+    "name": "Trio",
+    "questions": 2,
+    "points": 75
   },
   {
     "id": 27,
-    "name": "AppVision",
-    "questions": 1,
-    "points": 10
+    "name": "Green.io",
+    "questions": 2,
+    "points": 73
   },
   {
     "id": 28,
-    "name": "New Icons",
-    "questions": 1,
-    "points": 10
+    "name": "Saap",
+    "questions": 2,
+    "points": 69
   },
   {
     "id": 29,
-    "name": "TechFlurry's",
-    "questions": 1,
-    "points": 10
+    "name": "Code Stomp",
+    "questions": 2,
+    "points": 68.5
   },
   {
     "id": 30,
-    "name": "Trio",
-    "questions": 1,
-    "points": 10
+    "name": "The Terminators",
+    "questions": 2,
+    "points": 68
   },
   {
     "id": 31,
-    "name": "Innovation Geeks",
-    "questions": 1,
-    "points": 10
+    "name": "ARXP",
+    "questions": 2,
+    "points": 68
   },
   {
     "id": 32,
-    "name": "CREATORS",
-    "questions": 1,
-    "points": 10
+    "name": "unstoppable coders",
+    "questions": 2,
+    "points": 67
   },
   {
     "id": 33,
-    "name": "The core four",
-    "questions": 1,
-    "points": 10
+    "name": "Alpha team",
+    "questions": 2,
+    "points": 65
   },
   {
     "id": 34,
-    "name": "Team blitz",
-    "questions": 1,
-    "points": 10
+    "name": "Fine Crew",
+    "questions": 2,
+    "points": 65
   },
   {
     "id": 35,
-    "name": "NBK BOOMERS",
-    "questions": 1,
-    "points": 10
+    "name": "Z2VY",
+    "questions": 2,
+    "points": 65
   },
   {
     "id": 36,
-    "name": "Adreeja",
-    "questions": 1,
-    "points": 10
+    "name": "NBK BOOMERS",
+    "questions": 2,
+    "points": 64
   },
   {
     "id": 37,
-    "name": "THE BRO CODE",
-    "questions": 1,
-    "points": 10
+    "name": "Team Un-Grads",
+    "questions": 2,
+    "points": 63
   },
   {
     "id": 38,
-    "name": "Hack AI Elite",
-    "questions": 1,
-    "points": 10
+    "name": "THE BRO CODE",
+    "questions": 2,
+    "points": 63
   },
   {
     "id": 39,
-    "name": "Aviators",
-    "questions": 1,
-    "points": 10
+    "name": "CSE_5516",
+    "questions": 2,
+    "points": 62
   },
   {
     "id": 40,
-    "name": "Zero Buggers",
-    "questions": 1,
-    "points": 10
+    "name": "ASPB",
+    "questions": 2,
+    "points": 61
   },
   {
     "id": 41,
-    "name": "Predator",
-    "questions": 1,
-    "points": 10
+    "name": "CREATORS",
+    "questions": 2,
+    "points": 61
   },
   {
     "id": 42,
-    "name": "Code Patrol Delta",
-    "questions": 1,
-    "points": 10
+    "name": "Aviators",
+    "questions": 2,
+    "points": 60.5
   },
   {
     "id": 43,
-    "name": "Dragons",
-    "questions": 1,
-    "points": 10
+    "name": "Predator",
+    "questions": 2,
+    "points": 60
   },
   {
     "id": 44,
-    "name": "hack_reva",
-    "questions": 1,
-    "points": 10
+    "name": "PNS",
+    "questions": 2,
+    "points": 59
   },
   {
     "id": 45,
-    "name": "coding ninja",
-    "questions": 1,
-    "points": 10
+    "name": "BEINNOVATIVE",
+    "questions": 2,
+    "points": 56
   },
   {
     "id": 46,
-    "name": "Binary",
-    "questions": 1,
-    "points": 10
+    "name": "COFFEE AND CODE",
+    "questions": 2,
+    "points": 56
   },
   {
     "id": 47,
-    "name": "ARXP",
-    "questions": 1,
-    "points": 10
+    "name": "VVVR",
+    "questions": 2,
+    "points": 55.5
   },
   {
     "id": 48,
-    "name": "Hack Elite",
-    "questions": 1,
-    "points": 10
+    "name": "Zero Buggers",
+    "questions": 2,
+    "points": 55.5
   },
   {
     "id": 49,
-    "name": "Pradarshane",
-    "questions": 1,
-    "points": 10
+    "name": "Hunter Squad",
+    "questions": 2,
+    "points": 55
   },
   {
     "id": 50,
-    "name": "Syntax Sanitizers",
-    "questions": 1,
-    "points": 10
+    "name": "Troopers",
+    "questions": 2,
+    "points": 55
   },
   {
     "id": 51,
-    "name": "HackStreetBoys",
-    "questions": 1,
-    "points": 10
+    "name": "QUINTET",
+    "questions": 2,
+    "points": 35
   },
   {
     "id": 52,
-    "name": "Flash",
-    "questions": 1,
-    "points": 10
+    "name": "HACKATHON A",
+    "questions": 2,
+    "points": 34
   },
   {
     "id": 53,
-    "name": "PNS",
-    "questions": 1,
-    "points": 10
+    "name": "The core four",
+    "questions": 2,
+    "points": 33
   },
   {
     "id": 54,
-    "name": "hiriyu",
-    "questions": 1,
-    "points": 10
+    "name": "Aurora",
+    "questions": 2,
+    "points": 30
   },
   {
     "id": 55,
-    "name": "Tech_bluff",
-    "questions": 1,
-    "points": 10
+    "name": "Hack Elite",
+    "questions": 2,
+    "points": 30
   },
   {
     "id": 56,
-    "name": "Encephlon",
-    "questions": 1,
-    "points": 10
+    "name": "US",
+    "questions": 2,
+    "points": 28
   },
   {
     "id": 57,
-    "name": "Green.io",
-    "questions": 1,
-    "points": 10
+    "name": "Code Patrol Delta",
+    "questions": 2,
+    "points": 24
   },
   {
     "id": 58,
-    "name": "Aurora",
-    "questions": 1,
-    "points": 10
+    "name": "awake ? code : sleep",
+    "questions": 2,
+    "points": 22
   },
   {
     "id": 59,
-    "name": "#include",
-    "questions": 1,
-    "points": 10
+    "name": "",
+    "questions": 2,
+    "points": 20
   },
   {
     "id": 60,
-    "name": "COFFEE AND CODE",
-    "questions": 1,
-    "points": 10
+    "name": "HACK ELITE",
+    "questions": 2,
+    "points": 18
   },
   {
     "id": 61,
-    "name": "BEINNOVATIVE",
-    "questions": 1,
-    "points": 10
+    "name": "Reva shopping",
+    "questions": 2,
+    "points": 15
   },
   {
     "id": 62,
-    "name": "Segmentation Fault",
-    "questions": 1,
-    "points": 10
+    "name": "Coders123",
+    "questions": 2,
+    "points": 13
   }
  ]
 
